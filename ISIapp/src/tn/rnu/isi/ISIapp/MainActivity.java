@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 		ArrayAdapterClass adapter ; 
 		
 		
-		String [] values = new String[] {"Note" , "Emploi" , "News" , "Evenements", "Favorie"};
+		String [] values = new String[] {"Note" , "Emploi" , "News" , "Evenements", "Favorie","Tunisie"};
 		
 		adapter = new ArrayAdapterClass(this, values); 
 		ListView listview = (ListView) findViewById(R.id.listView1); 
